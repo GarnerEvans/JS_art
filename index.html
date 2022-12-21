@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="main.js" defer></script>
+<title>Chicago Art Institute</title>
+</head>
+<body>
+    <div style="background-image: url(https://images.wsj.net/im-569083/social); height: 600px"  class="jumbotron bg-cover text-white">
+        <div class="container py-5 text-center">
+            <h1 class="display-4 font-weight-bold text-dark py-5 mt-4">Chicago Art Institute</h1>
+            <p class="font-italic mb-0 text-light">A revolving display of the finest works from decade-spanning eras. </p>
+        </div>
+    </div>
+
+    <section class="bg-dark">
+        <div class="bg-dark text-light">
+            <h1 class="font-weight-bold text-light text-center pt-5 display-4">Click on a Piece for More Information</h1>
+        </div>
+        <hr class="style1 mx-5 text-light">
+
+        <div class="container">
+            <div class="row justify-content-center">
+            <figure onclick="event.stopPropagation(), getInfo(this.id)">
+                <img class="px-0 mt-5 mb-5 col-lg-6 col-md-6 col-sm-12 d-flex border border-4 rounded-3 border-light" alt="97402" src="/static/images/minnie.jpeg" id="fig1" onclick= "getInfo(this.id)">
+            </figure>
+            </div>
+            </div>
+        </div>
+
+        <hr class="style1 mx-5 text-light">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <img src="/static/images/amarillo.jpeg" alt="212391" class="px-0 mt-5 mb-5 col-lg-6 col-md-6 col-sm-12 d-flex border border-4 rounded-3 border-light" id="fig2" onclick= "getInfo(this.id)">
+            </div>
+        </div>
+
+        <hr class="style1 mx-5 text-light">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <img src="/static/images/catskill mountains.jpeg" alt="68388" class="px-0 mt-5 mb-5 col-lg-6 col-md-6 col-sm-12 d-flex border border-4 rounded-3 border-light" id="fig3" onclick= "getInfo(this.id)">
+            </div>
+        </div>
+
+        <hr class="style1 mx-5 text-light">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <img src="/static/images/default.jpeg" alt="83905" class="px-0 mt-5 mb-5 col-lg-6 col-md-6 col-sm-12 d-flex border border-4 rounded-3 border-light" id="fig4" onclick= "getInfo(this.id)">
+            </div>
+        </div>
+       
+        <hr class="style1 mx-5 text-light">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <img src="/static/images/many mansions.jpeg" alt="137125" class="px-0 mt-5 mb-5 col-lg-6 col-md-6 col-sm-12 d-flex border border-4 rounded-3 border-light" id="fig5" onclick= "getInfo(this.id)">
+            </div>
+        </div>
+
+        <hr class="style1 mx-5 text-light">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <img src="/static/images/highway_landscapes.jpeg" alt="73282" class="px-0 mt-5 mb-5 col-lg-6 col-md-6 col-sm-12 d-flex border border-4 rounded-3 border-light" id="fig6" onclick= "getInfo(this.id)">
+            </div>
+        </div>
+    </section>
+
+<footer class="bg-light">
+    <div class="row">
+        <h3 class="col-lg-12 text-center p-4 text-decoration-underline">The Art Institute of Chicago</h3> <br>
+        <p class="p-4 pt-0  text-center text-black-50">111 S Michigan Ave, Chicago, IL 60603</p>
+
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
